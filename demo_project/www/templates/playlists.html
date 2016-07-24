@@ -1,0 +1,62 @@
+<ion-view view-title="Ionic Input Field">
+    <ion-content>
+        <p><a class="button button-full button-positive icon-left ion-home" target="_blank" href="http://ionicframework.com/docs/components/#forms-placeholder-labels">Official docs</a></p>
+        <div class="list">
+            <div class="item item-divider">Placeholder labels</div>
+            <div class="item item-input">
+                <input type="password" placeholder="normal" />
+            </div>
+            <div class="item item-input">
+                <input type="password" placeholder="Password show hide" ng-model="myform.password" ionic-password-show-hide />
+            </div>
+            
+            <div class="item item-divider">Inline labels</div>
+            <div class="item item-input">
+                <span class="input-label">normal</span>
+                <input type="password" placeholder="normal" />
+            </div>
+            <div class="item item-input">
+                <span class="input-label">with show/hide</span>
+                <input type="password" placeholder="Password show hide" ng-model="myform.password" ionic-password-show-hide />
+            </div>
+            
+            <div class="item item-divider">Stacked labels</div>
+            <div class="item item-input item-stacked-label">
+                <span class="input-label">normal</span>
+                <input type="password" placeholder="normal" />
+            </div>
+            <div class="item item-input item-stacked-label">
+                <span class="input-label">with show/hide</span>
+                <input type="password" placeholder="Password show hide" ng-model="myform.password" ionic-password-show-hide />
+            </div>
+            
+            <div class="item item-divider">Floating labels</div>
+            <div class="item item-input item-floating-label">
+                <span class="input-label">normal</span>
+                <input type="password" placeholder="normal" />
+            </div>
+            <div class="item item-input item-floating-label">
+                <span class="input-label">with show/hide</span>
+                <input type="password" placeholder="Password show hide" ng-model="myform.password" ionic-password-show-hide />
+            </div>
+            
+            <div class="item item-divider">Inset forms</div>
+            <div class="item item-input-inset">
+                <div class="item-input-wrapper">
+                    <input type="password" placeholder="normal" />
+                </div>
+                <button class="button button-small">
+                    Submit
+                </button>
+            </div>
+            <div class="item item-input-inset">
+                <div class="item-input-wrapper">
+                    <input type="password" placeholder="Password show hide" ng-model="myform.password" ionic-password-show-hide />
+                </div>
+                <button class="button button-small">
+                    Submit
+                </button>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
