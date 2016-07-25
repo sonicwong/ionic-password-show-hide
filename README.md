@@ -21,7 +21,7 @@ See it in action in the following image:
 
 # Introduction
 
-For one of my private projects I needed a password input field component come with show/hide button in Ionic. I searched a lot and found some plain Angular password show hide directive, but these had too much other dependencies and mostly didn't look that good within Ionic. Then . So I spent some time to create my own one.
+For one of my private projects I needed a password input field component come with show/hide button in Ionic. I searched a lot and found some plain Angular password show hide directive, but these had too much other dependencies and mostly didn't look that good within Ionic. Then . So I spent some time to create one.
 
 # Features
 
