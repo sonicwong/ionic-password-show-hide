@@ -8,8 +8,8 @@ ionic-password-show-hide
 - [Demo](#demo)
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
 - [Ionic compatibility](#ionic-compatibility)
+- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 
@@ -28,24 +28,27 @@ For one of my private projects I needed a password input field component come wi
 The ionic-password-show-hide component has the following features:
 - add show/hide button on the right side of the input field
 
-# Installation
-
-1. Import the `ionic-password-show-hide` javascript and css file into your HTML file:
-```html
-<script src="sw2.ionic.password-show-hide.js"></script>
-<link href="sw2.ionic.password-show-hide.css" rel="stylesheet">
-```
-2. Add `sw2.ionic.password-show-hide` as a dependency on your Ionic app:
-```javascript
-angular.module('myApp', [
-  'ionic',
-  'sw2.ionic.password-show-hide'
-]);
-```
-
 # Ionic compatibility
 
 Tested on Ionic version 1.3.1
+
+# Installation
+
+1. Import the `ionic-password-show-hide` javascript and css file into your HTML file:
+
+  ```html
+  <script src="sw2.ionic.password-show-hide.js"></script>
+  <link href="sw2.ionic.password-show-hide.css" rel="stylesheet">
+  ```
+  
+2. Add `sw2.ionic.password-show-hide` as a dependency on your Ionic app:
+
+  ```javascript
+  angular.module('myApp', [
+    'ionic',
+    'sw2.ionic.password-show-hide'
+  ]);
+  ```
 
 # Usage
 
