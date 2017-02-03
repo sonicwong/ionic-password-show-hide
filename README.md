@@ -61,13 +61,17 @@ REMARK: In order to let the show/hide button is clickable, please use "div" inst
 
 # Usage (options)
 
-N/A
+1. Add "data-password-show-btn-class" attribute to change show password button class. [Default: ion-eye]
+
+2. Add "data-password-hide-btn-class" attribute to change hide password button class. [Default: ion-eye-disabled]
+
 
 # Version
 
-v1.0.0 (2016-07-25)
+v1.1.0 (2017-02-03) Keep focus on field when click on button. (Base on the code from https://github.com/sonicwong/ionic-input-clearable) Add button class option.
 
-1. Initial release
+v1.0.0 (2016-07-25) Initial release
+
 
 # License
 
